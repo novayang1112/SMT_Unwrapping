@@ -67,7 +67,7 @@ Input_Params.PixelS = 81.25; % pixel size in nm
 Input_Params.ExpT = 1; % time interval in second
 Input_Params.TimeRange = [-10,400]; % the time range for trajectory ploting in sec ,better to have some space on both side
 Input_Params.PosiXRang = [-500,500]; % the position range of short axis for plotting in nm
-Input_Params.PosiYRang = [-200,200]; % the position range of short axis for plotting in nm
+Input_Params.PosiYRang = [-200,200]; % the position range of long axis for plotting in nm
 Input_Params.Nboot = 100; % number of the bootstrapping to get linear fitting
 Input_Params.Pdrop = 0.1; %dropout probability in bootstrapping
 
